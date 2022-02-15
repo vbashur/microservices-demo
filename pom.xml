@@ -4,7 +4,8 @@
 	<modelVersion>4.0.0</modelVersion>
 	<modules>
 		<module>twitter2kafka</module>
-	</modules>
+        <module>app-config-data</module>
+    </modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -88,10 +89,10 @@
 <!--						<compilerVersion>1.8</compilerVersion>-->
 <!--						<source>1.8</source>-->
 <!--						<target>1.8</target>-->
-						<annotationProcessors>
-							<annotationProcessor>org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor</annotationProcessor>
-							<annotationProcessor>lombok.launch.AnnotationProcessorHider$AnnotationProcessor</annotationProcessor>
-						</annotationProcessors>
+<!--						<annotationProcessors>-->
+<!--							<annotationProcessor>org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor</annotationProcessor>-->
+<!--							<annotationProcessor>lombok.launch.AnnotationProcessorHider$AnnotationProcessor</annotationProcessor>-->
+<!--						</annotationProcessors>-->
 					</configuration>
 				</plugin>
 			</plugins>

@@ -5,7 +5,11 @@
 	<modules>
 		<module>twitter2kafka</module>
         <module>app-config-data</module>
-    </modules>
+        <module>kafka</module>
+		<module>kafka/kafka-model</module>
+		<module>kafka/kafka-admin</module>
+		<module>kafka/kafka-producer</module>
+	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
